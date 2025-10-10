@@ -1,91 +1,75 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
-  accentColor: "#1d4ed8",
+  name: "Favour Daniel",
+  title: "Backend Developer",
+  description: "Portfolio website of Favour Daniel — Backend Developer and AI Engineer from Rivers State University, Nigeria.",
+  accentColor: "#8b5cf6", // Neon Purple
+
+
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "feivodanny.06@gmail.com",
+    linkedin: "https://www.linkedin.com/in/favour-daniel-55231437b/",
+    twitter: "https://x.com/internetguru01",
+    github: "https://github.com/Danielfavour6002/",
   },
+
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "I'm a backend developer and computer programmer passionate about building scalable, data-driven systems that solve real-world problems. My work spans AI-powered APIs, automation tools, and user-focused platforms. I focus on clean backend architecture, performance optimization, and integrating AI into practical products. I’m also a former GDSC Lead at Rivers State University, where I led campus-wide tech initiatives and developer training programs.",
+
+  skills: [
+    "Python",
+    "FastAPI",
+    "LangChain",
+    "PostgreSQL",
+    "Docker",
+    "REST API Design",
+    "JavaScript",
+    "Next.js",
+    "Automation",
+    "Django"
+  ],
+
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "MedScan AI",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "An AI-powered medical assistant API that interprets medical records and generates structured health analyses in JSON format. Built with LangChain and Google Gemini, it supports multilingual understanding and local healthcare use cases in Nigeria.",
+      link: "https://smartscan-ai.onrender.com",
+      github: "https://github.com/Danielfavour6002/SmartScan-AI/",
+      skills: ["FastAPI", "LangChain", "Google Gemini", "Pydantic", "Python"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "School Portal API",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "A backend system for university management that handles student authentication, course management, and course enrollment. Designed to streamline academic record management for institutions.",
+      link: "https://school-portal-api-ll9w.onrender.com",
+      github: "https://github.com/Danielfavour6002/School-Portal-Api",
+      skills: ["Django", "REST API", "PostgreSQL", "Authentication"]
     },
   ],
+
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "First On Call Initiative",
+      title: "Backend Developer",
+      dateRange: "March 2024 - January 2025",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
-      ],
-    },
-    {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Developed and optimized backend services using FastAPI and PostgreSQL to support healthcare and automation systems.",
+        "Integrated software archiitectures for developing efficient and scalable systems, e.g DRY, modularity, Dependency Inection.",
+        "Implemented modular, scalable architecture and improved API performance and maintainability.",
+        "Collaborated closely with frontend and data teams to align backend systems with business goals.",
       ],
     },
   ],
+
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Rivers State University, Nigeria",
+      degree: "Bachelor of Science (B.Sc.) in Computer Science",
+      dateRange: "April 2022 - October 2025",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Served as the Google Developer Student Club (GDSC) Lead for the 2023/2024 session, organizing developer workshops and community events.",
+        "Led student developers in hands-on projects involving AI, automation, and cloud technologies.",
+        "Gained strong foundations in backend systems, networking, and data-driven software development.",
       ],
     },
   ],
