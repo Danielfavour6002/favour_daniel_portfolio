@@ -51,7 +51,7 @@ export const siteConfig = {
         "A backend system for university management that handles student authentication, course management, and course enrollment. Designed to streamline academic record management for institutions.",
       link: "https://school-portal-api-ll9w.onrender.com",
       github: "https://github.com/Danielfavour6002/School-Portal-Api",
-      skills: ["Django", "REST API", "PostgreSQL", "Authentication"]
+      skills: ["FastAPI", "Database Design", "PostgreSQL", "Authentication"]
     },
   ],
 
