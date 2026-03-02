@@ -1,9 +1,8 @@
 export const siteConfig = {
   name: "Favour Daniel",
-  title: "Backend Developer",
+  title: "Backend Developer & AI Engineer",
   description: "Portfolio website of Favour Daniel — Backend Developer and AI Engineer from Rivers State University, Nigeria.",
   accentColor: "#8b5cf6", // Neon Purple
-
 
   social: {
     email: "feivodanny.06@gmail.com",
@@ -13,7 +12,7 @@ export const siteConfig = {
   },
 
   aboutMe:
-    "I'm a backend developer and computer programmer passionate about building scalable, data-driven systems that solve real-world problems. My work spans AI-powered APIs, automation tools, and user-focused platforms. I focus on clean backend architecture, performance optimization, and integrating AI into practical products. I’m also a former GDSC Lead at Rivers State University, where I led campus-wide tech initiatives and developer training programs.",
+    "I'm a backend developer and AI engineer passionate about building scalable, data-driven architectures and integrating AI into production-ready products. With a strong foundation in Python and LangChain, I specialize in solving complex problems like NL2SQL, autonomous agents, and high-performance API design. I'm currently learning more about AI engineering and React, constantly expanding my skillset",
 
   skills: [
     "Python",
@@ -21,50 +20,69 @@ export const siteConfig = {
     "LangChain",
     "PostgreSQL",
     "Docker",
+    "NL2SQL",
+    "Agentic Reasoning",
+    "Django",
     "REST API Design",
-    "JavaScript",
-    "Next.js",
-    "Automation",
-    "Django"
+    "Next.js"
   ],
 
   projects: [
     {
-      name: "MedScan AI",
+      name: "AutoDB",
       description:
-        "An AI-powered medical assistant API that interprets medical records and generates structured health analyses in JSON format. Built with LangChain and Google Gemini, it supports multilingual understanding and local healthcare use cases in Nigeria.",
-      link: "https://smartscan-ai.onrender.com",
-      github: "https://github.com/Danielfavour6002/SmartScan-AI/",
-      skills: ["FastAPI", "LangChain", "Google Gemini", "Pydantic", "Python"],
-    },
-     {
-      name: "Workout Tracker",
-      description:
-        "A Django REST API for tracking workouts, exercises, sessions, and performance analytics. Users can register, log workouts, log exercises, view progress reports, and track their fitness journey. Admins can manage exercises and view user progress.",
-      link: "https://workout-tracker-xd79.onrender.com/docs",
-      github: "https://github.com/Danielfavour6002/Workout-Tracker",
-      skills: ["Django", "Django rest framework", "postgres", "Python"],
+        "An AI database lifecycle tool that architects schemas and analyzes live data via natural language. Features a custom schema pruning engine to eliminate 'agent loops', multi-dialect support (Postgres/MySQL/SQLite), and a direct 'Push-to-DB' execution layer.",
+      link: "https://autodb.streamlit.app/",
+      github: "https://github.com/Danielfavour6002/AutoDB",
+      skills: ["LangChain", "Groq", "Python", "SQL", "Streamlit"],
     },
     {
-      name: "School Portal API",
+      name: "Trimly",
       description:
-        "A backend system for university management that handles student authentication, course management, and course enrollment. Designed to streamline academic record management for institutions.",
-      link: "https://school-portal-api-ll9w.onrender.com",
-      github: "https://github.com/Danielfavour6002/School-Portal-Api",
-      skills: ["FastAPI", "Database Design", "PostgreSQL", "Authentication"]
+        "A robust multi-vendor marketplace backend. Engineered secure transaction logic, real-time inventory synchronization, and a comprehensive vendor management system. Focuses on high-concurrency performance and data integrity.",
+      link: "https://trimly-app.onrender.com/swagger/",
+      github: "", // Private Repository
+      skills: ["DjangoRestFramework", "PostgreSQL", "Swagger/OpenAPI", "Backend Architecture"],
+    },
+    {
+      name: "MedScan AI",
+      description:
+        "An AI-powered medical assistant API that interprets medical records and generates structured health analyses. Built with LangChain and Google Gemini, supporting multilingual understanding for local healthcare use cases.",
+      link: "https://smartscan-ai.onrender.com",
+      github: "https://github.com/Danielfavour6002/SmartScan-AI/",
+      skills: ["FastAPI", "LangChain", "Google Gemini", "Pydantic"],
+    },
+    {
+      name: "Workout Tracker",
+      description:
+        "A Django REST API for tracking fitness performance, sessions, and analytics. Includes user progress reporting, administrative management tools, and secure session logging.",
+      link: "https://workout-tracker-xd79.onrender.com/docs",
+      github: "https://github.com/Danielfavour6002/Workout-Tracker",
+      skills: ["Django", "DRF", "PostgreSQL", "Python"],
     },
   ],
 
   experience: [
     {
+      company: "Solnx Lab",
+      title: "Backend Developer",
+      dateRange: "December 2025 - Present",
+      bullets: [
+        "Architected and maintained scalable backend systems for diverse client-facing applications in an agile agency environment.",
+        "Led the backend development for Trimly, a multi-vendor marketplace, implementing secure payment flows and real-time inventory tracking.",
+        "Optimized database schemas and API performance, resulting in significant reductions in server response times.",
+        "Collaborated with cross-functional teams to translate business requirements into high-performance technical solutions."
+      ],
+    },
+    {
       company: "First On Call Initiative",
       title: "Backend Developer",
       dateRange: "March 2024 - January 2025",
       bullets: [
-        "Developed and optimized backend services using FastAPI and PostgreSQL to support healthcare and automation systems.",
-        "Integrated software archiitectures for developing efficient and scalable systems, e.g DRY, modularity, Dependency Inection.",
-        "Implemented modular, scalable architecture and improved API performance and maintainability.",
-        "Collaborated closely with frontend and data teams to align backend systems with business goals.",
+        "Designed and optimized RESTful APIs using FastAPI and PostgreSQL for automated healthcare data processing.",
+        "Implemented industry-standard software patterns including DRY, Dependency Injection, and modular service architectures.",
+        "Streamlined backend workflows to improve overall system maintainability and scalability.",
+        "Partnered with frontend teams to deliver seamless integration for data-driven internal tools."
       ],
     },
   ],
@@ -75,9 +93,9 @@ export const siteConfig = {
       degree: "Bachelor of Science (B.Sc.) in Computer Science",
       dateRange: "April 2022 - October 2025",
       achievements: [
-        "Served as the Google Developer Student Club (GDSC) Lead for the 2023/2024 session, organizing developer workshops and community events.",
-        "Led student developers in hands-on projects involving AI, automation, and cloud technologies.",
-        "Gained strong foundations in backend systems, networking, and data-driven software development.",
+        "Served as Google Developer Student Club (GDSC) Lead (2023/2024), overseeing developer workshops and local tech community growth.",
+        "Mentored student developers in building hands-on projects with AI, automation, and cloud technologies.",
+        "Graduated with a focus on backend systems, networking, and data-driven software development.",
       ],
     },
   ],
