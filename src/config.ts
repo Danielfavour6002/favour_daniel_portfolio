@@ -1,7 +1,8 @@
 export const siteConfig = {
   name: "Favour Daniel",
   title: "Backend Developer & AI Engineer",
-  description: "Portfolio website of Favour Daniel — Backend Developer and AI Engineer from Rivers State University, Nigeria.",
+  description:
+    "Portfolio website of Favour Daniel — Backend Developer and AI Engineer from Rivers State University, Nigeria.",
   accentColor: "#8b5cf6", // Neon Purple
 
   social: {
@@ -24,10 +25,18 @@ export const siteConfig = {
     "Agentic Reasoning",
     "Django",
     "REST API Design",
-    "Next.js"
+    "Next.js",
   ],
 
   projects: [
+    {
+      name: "FormIQ",
+      description:
+        "An AI-powered real-time fitness coaching platform that watches, corrects, and scores your form as you train. Built with a live pose-tracking pipeline (YOLO) and a multimodal AI coach (Gemini Live) that delivers voice corrections mid-rep. Features a 0–100 Form Score, session summaries, and a persistent AI coaching persona — all running from a single phone camera.",
+      link: "https://tryformiq.fit",
+      github: "",
+      skills: ["FastAPI", "Gemini Live", "YOLO", "Supabase", "webrtc", "Python"],
+    },
     {
       name: "AutoDB",
       description:
@@ -41,8 +50,13 @@ export const siteConfig = {
       description:
         "A robust multi-vendor marketplace backend. Engineered secure transaction logic, real-time inventory synchronization, and a comprehensive vendor management system. Focuses on high-concurrency performance and data integrity.",
       link: "https://trimly-app.onrender.com/swagger/",
-      github: "", // Private Repository
-      skills: ["DjangoRestFramework", "PostgreSQL", "Swagger/OpenAPI", "Backend Architecture"],
+      github: "",
+      skills: [
+        "DjangoRestFramework",
+        "PostgreSQL",
+        "Swagger/OpenAPI",
+        "Backend Architecture",
+      ],
     },
     {
       name: "MedScan AI",
@@ -71,7 +85,7 @@ export const siteConfig = {
         "Architected and maintained scalable backend systems for diverse client-facing applications in an agile agency environment.",
         "Led the backend development for Trimly, a multi-vendor marketplace, implementing secure payment flows and real-time inventory tracking.",
         "Optimized database schemas and API performance, resulting in significant reductions in server response times.",
-        "Collaborated with cross-functional teams to translate business requirements into high-performance technical solutions."
+        "Collaborated with cross-functional teams to translate business requirements into high-performance technical solutions.",
       ],
     },
     {
@@ -82,7 +96,7 @@ export const siteConfig = {
         "Designed and optimized RESTful APIs using FastAPI and PostgreSQL for automated healthcare data processing.",
         "Implemented industry-standard software patterns including DRY, Dependency Injection, and modular service architectures.",
         "Streamlined backend workflows to improve overall system maintainability and scalability.",
-        "Partnered with frontend teams to deliver seamless integration for data-driven internal tools."
+        "Partnered with frontend teams to deliver seamless integration for data-driven internal tools.",
       ],
     },
   ],
