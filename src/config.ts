@@ -10,6 +10,7 @@ export const siteConfig = {
     linkedin: "https://www.linkedin.com/in/favour-daniel-55231437b/",
     twitter: "https://x.com/internetguru01",
     github: "https://github.com/Danielfavour6002/",
+    fiverr: "https://www.fiverr.com/users/dannyfav/portfolio"
   },
 
   aboutMe:
